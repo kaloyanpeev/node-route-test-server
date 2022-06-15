@@ -1,0 +1,16 @@
+{
+  "name": "node-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "$ENV:CSI_RM_EVENTLOOP='true'; node -r @contrast/route-metrics index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contrast/route-metrics": "^1.0.0-alpha",
+    "express": "^4.18.1"
+  }
+}
